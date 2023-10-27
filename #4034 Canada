@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    unsigned int s,d,r;
+    cin>>s>>d;
+    if(s+d<=100)
+    {
+        cout<<0;
+    }
+    else
+    cout<<s-(100-d);
+   
+    
+    return 0;
+}
